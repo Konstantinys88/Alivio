@@ -1,0 +1,39 @@
+@media(max-width: 1280px) {
+    
+}
+
+@media (max-width:992px) {
+    .navigation {
+        &__wrapper {
+            position: fixed;
+            flex-direction: column;
+            width: 50%;
+            height: 100%;
+            background-color: rgba($color: #8b7474, $alpha: 0.8);
+            top: 0;
+            left: -100%;
+            transition: 0.5s all;
+            &_active {
+                left:0;
+        }
+        }
+        &__nav-a {
+            display: flex;
+            margin-top: 15px;
+            padding-left: 0;
+        }
+        &__start-btn {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .btn {
+        margin-top: 10px;
+    }
+    .hamburger {
+        display: block;
+        span {
+            display: block;
+        }
+    }
+}
