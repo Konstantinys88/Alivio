@@ -313,6 +313,51 @@ body .container {
   border-radius: 20px;
 }
 
+.product {
+  padding-top: 120px;
+  padding-bottom: 168px;
+}
+.product__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.product__left {
+  position: relative;
+  padding-right: 90px;
+}
+.product__left-img-card {
+  position: absolute;
+  left: -75px;
+  bottom: -70px;
+  z-index: 10;
+}
+.product__right-h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 157%;
+  color: #424242;
+  margin-bottom: 10px;
+}
+.product__right-h2 {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 157%;
+  color: #01996D;
+  margin-bottom: 20px;
+}
+.product__right-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 144.5%;
+  color: #484848;
+  margin-bottom: 40px;
+}
+
 @media (max-width: 992px) {
   .navigation__wrapper {
     position: fixed;
