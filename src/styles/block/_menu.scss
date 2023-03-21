@@ -1,13 +1,17 @@
 
 .navigation {
+    position: sticky;
+    top: 0;
+    background: rgba($color: #ffffff, $alpha: 0.9);
+    z-index: 200;
     &__wrapper {
         width: 100%;
         height: 85px;
         display: flex;
-        justify-content: space-between;
-        background-color:rgb(255, 255, 255);
+        justify-content: space-around;
+        // background-color:rgb(255, 255, 255);
         align-items: center;
-        z-index: 20;
+        z-index: 200;
     }
     &__nav-a {
         text-decoration: none;
@@ -59,9 +63,9 @@
 .hamburger {
     position: absolute;
     display: none;
-    top: 100px;
+    top: 50px;
     left:80%;
-    width: 26px;
+    width: 38px;
     height: 18px;
     cursor: pointer;
     transition: 0.5s all;
@@ -70,7 +74,7 @@
         margin-top: 3px;
         width: 100%;
         height: 3px;
-        background-color: rgb(0, 0, 0);
+        background-color: #01996D;
         transition: 0.5s all;
     }
     &_active {
@@ -90,15 +94,17 @@
 
 .overlay {
     display: none;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba($color: #bab2b2, $alpha: 0.9);
+    background: rgba($color: #ffffff, $alpha: 0.5);
     transition: 0.5s all;
+    z-index: 5;
     &_active {
         display: block;
+        z-index: 5;
     }
 }
 
