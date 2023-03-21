@@ -176,6 +176,98 @@ body .container {
   text-decoration: none;
 }
 
+.how-it-works {
+  padding-top: 169px;
+}
+.how-it-works__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.how-it-works__header-left {
+  max-width: 584px;
+}
+.how-it-works__header-left-title-h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 157%;
+  color: #424242;
+}
+.how-it-works__header-left-title-h1 {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 157%;
+  color: #01996D;
+}
+.how-it-works__header-right {
+  margin-top: 20px;
+  max-width: 671px;
+}
+.how-it-works__header-right-p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #424242;
+}
+.how-it-works__cards-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px;
+}
+.how-it-works__card {
+  max-width: 390px;
+  max-height: 937px;
+}
+.how-it-works__card_2 {
+  margin-top: 206px;
+}
+.how-it-works__card_3 {
+  margin-top: 40px;
+}
+.how-it-works__card-number {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 150px;
+  line-height: 150%;
+  color: rgba(1, 153, 109, 0.2);
+  z-index: 0;
+}
+.how-it-works__card-title {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 150%;
+  color: #000000;
+  position: absolute;
+  z-index: 10;
+  margin-top: -95px;
+  margin-left: 88px;
+}
+.how-it-works__card-text {
+  padding-top: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #424242;
+}
+.how-it-works__card-img {
+  padding-top: 60px;
+}
+
 @media (max-width: 992px) {
   .navigation__wrapper {
     position: fixed;

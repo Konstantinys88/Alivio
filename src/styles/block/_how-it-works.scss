@@ -1,0 +1,86 @@
+.how-it-works {
+    padding-top: 169px;
+    &__header {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__header-left {
+        max-width: 584px;
+
+    }
+    &__header-left-title-h4 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 157%;
+        color: #424242;
+    }
+    &__header-left-title-h1 {
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 157%;
+        color: #01996D;
+    }
+    &__header-right {
+        margin-top: 20px;
+        max-width: 671px;
+    }
+    &__header-right-p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: #424242;
+    }
+    &__cards-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+
+    }
+    &__card {
+        max-width: 390px;
+        max-height: 937px;
+        &_2 {
+            margin-top: 206px;
+        }
+        &_3 {
+            margin-top: 40px;
+        }
+    }
+    &__card-number {
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 150px;
+        line-height: 150%;
+        color: rgba(1, 153, 109, 0.2);
+        z-index: 0;
+    }
+    &__card-title {
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 150%;
+        color: #000000;
+        position: absolute;
+        z-index: 10;
+        margin-top: -95px;
+        margin-left: 88px;
+    }
+    &__card-text {
+        padding-top: 10px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: #424242;
+    }
+    &__card-img {
+        padding-top: 60px;
+
+    }
+}
