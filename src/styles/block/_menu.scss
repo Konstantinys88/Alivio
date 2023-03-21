@@ -18,6 +18,9 @@
         font-size: 20px;
         line-height: 24px;
         color: #292929;
+        &:hover {
+            color:#01996D;
+        }
     }
     &__nav-a:first-child {
         padding-left: 0;

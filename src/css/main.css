@@ -47,6 +47,9 @@ body .container {
   line-height: 24px;
   color: #292929;
 }
+.navigation__nav-a:hover {
+  color: #01996D;
+}
 .navigation__nav-a:first-child {
   padding-left: 0;
 }
