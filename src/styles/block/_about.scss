@@ -1,0 +1,40 @@
+.about {
+    background: #245852;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 229px 207px 176px;
+    }
+    &__wrapper-left {
+        max-width: 560px;
+        padding-right: 25px;
+    }
+    &__wrapper-left-h1 {
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 157%;
+        color: #FFFFFF;
+        padding-top: 40px;
+    }
+    &__wrapper-left-p {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 157%;
+        color: #FFFFFF;
+        padding-top: 33px;
+    }
+    &__wrapper-left-btn {
+        margin-top: 57px;
+        width: 240px;
+        height: 65px;
+    }
+    &__wrapper-right-video {
+        width: 895.84px;
+        height: 516.11px;
+        border-radius: 20px;
+    }
+}
